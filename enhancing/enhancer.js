@@ -40,9 +40,26 @@ function fail(item) {
 };
 
 // After a repair
-function repair(item) {
-  return { ...item, durability: 100 };
+function repair(item) {// <-- Passed in item/parameter
+  return { ...item, durability: 100 }; //<-- Returned item
 };
+/* 
+A) Passed in item:
+{
+  name: "Sword",
+  durability: 10
+}
+
+B) Returned item
+{
+  name: "Sword",
+  durability: 100
+}
+
+-*NOTE: You're testing to make sure the return item has a durability of 100. 
+
+
+*/
 
 // Grab item
 function get(item) {
