@@ -1,4 +1,8 @@
-const enhancer = require('./enhancer.js');
-// test away!
+//.test/.spec files are designated test files.
+const { succeed, fail, repair } = require("./enhancer.js");
 
-describe('')
+//Test - Repair
+
+// Test-Succeed
+
+//Test- Fail
